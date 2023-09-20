@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prompt em JavaScript</title>
+</head>
+<body>
+
+<script>
+    // Usando o prompt para ler um número do usuário
+    var userInput = prompt("Digite um número:");
+    
+    // Convertendo a entrada para um número (pode ser necessário validar)
+    var v1 = parseFloat(userInput);
+
+    // Verificando se a entrada é um número válido
+    if (!isNaN(v1)) {
+        // Se for válido, faça algo com v1
+        alert("Você digitou o número: " + v1);
+    } else {
+        alert("Entrada inválida. Certifique-se de digitar um número.");
+    }
+</script>
+
+</body>
+</html>
